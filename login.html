@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Login</title>
+</head>
+<body>
+    <div id="loginForm">
+        <br>
+        <p id="loginText">Login</p>
+        <div id="loginBox">
+            <p>Username:</p>
+            <input type="text" id="username" class="loginTextBox">
+            <p>Password:</p>
+            <input type="text" id="password" class="loginTextBox">
+        </div>
+        <br><br>
+        <input type="button" value="Login" id="loginButton" onclick="login();">
+        <br><br>
+    </div>
+
+    <script src="login.js"></script>
+
+    <style>
+        body, html
+        {
+            margin: 0;
+        }
+
+        #loginForm
+        {
+            background-color: #E71D36;
+            border-radius: 25pt;
+            width: 20%;
+            margin-left: 40%;
+            margin-top: 10%;
+        }
+
+        #loginText
+        {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18pt;
+            text-align: center;
+        }
+
+        #loginBox
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            align-self: center;
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        .loginTextBox
+        {
+            width: 100%;
+            border: 0;
+            font-size: 18pt;
+            border-radius: 5pt;
+        }
+
+        #loginButton
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+            width: 30%;
+            margin-left: 35%;
+            border: 0;
+            border-radius: 5pt;
+        }
+    </style>
+</body>
+</html>
